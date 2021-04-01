@@ -1,13 +1,13 @@
 version: '3'
 services:
   tensorflow:
-    image: tensorflow/tensorflow:latest-gpu-jupyter
+    image: tensorflow/tensorflow:2.3.2-gpu-jupyter
     deploy:
       resources:
         reservations:
           devices:
-          - capabilities: [gpu]
+            - capabilities: [gpu]
     ports: 
       - 8888:8888
     volumes: 
-      - .:/tf 
+      - .:/tf

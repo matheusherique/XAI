@@ -1,0 +1,12 @@
+numpy
+scipy
+matplotlib
+ipython
+jupyter
+pandas
+sympy
+nose
+keras_lr_finder
+pyyaml
+h5py
+shap
