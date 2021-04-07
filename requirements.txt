@@ -10,3 +10,4 @@ keras_lr_finder
 pyyaml
 h5py
 shap
+tensorflow-addons
